@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography images</title>
+    <link rel="stylesheet" href="./style.css">
+
+<style>
+  
+  body{text-align:center;}
+        table, th, td {border: 1px dashed black; align:center;}
+        .center {
+          margin-left: auto;
+          margin-right: auto;
+        }
+        #courseList{display: inline-block;text-align:left;}
+     #login-form{
+border: 5px double black;
+} 
+</style>
+</head>
+<body>
+  <div style ="background-color:rgb(192, 253, 255)">
+  <h1  id="table-heading"  >TABLES AND LISTS</h1> 
+  <table  class="center" id="courseTable" >
+    <tr><th>Roll No</th><th>Name</th><th>Course</th><th>Department</th></tr>
+    <tr><td>4506</td><td>TAEHYUNG</td><td>Network Engineering</td><td>NE</td></tr>
+    <tr><td>4578</td><td>JUNGKOOK</td><td>Robotics Engineering</td><td>RE</td></tr>
+    <tr><td>4598</td><td>KENTOO</td><td>Petroleum Engineering</td><td>PE</td></tr>
+    <tr><td>3456</td><td>CHISHIYA</td><td>Electronics and Communication</td><td>ECE</td></tr>
+    <tr><td>2308</td><td>KUINAA</td><td>Mechanical</td><td>MECH</td></tr>
+  </table><br>
+  <h2 id="courseHeading" >No Of Course Available</h2>
+  <ul id="courseList"><li> Network Engineering</li><li>Robotics Engineering </li><li>Petroleum Engineering  </li><li> Electronics and Communication</li><li> Mechanical</li></ul>
+
+</div>
+<div style ="background-color:rgb(179, 171, 245)">
+<h1 id="frameHeading"> FRAMES IN HTML</h1>
+<iframe id="frameImage1"src="https://www.instagram.com/" ></iframe>
+<iframe id="frameImage2" src="https://skillrack.com/"></iframe>
+</div>
+<div style ="background-color:rgb(241, 176, 209)">
+  <h1 >FORM  AND FORM ELEMENTS</h1>
+  <form id="login-form" >
+    <label>Name :</label>
+    <input  type="text" id="fname"><br><br>
+    <label>Password :</label>
+    <input  type="Password"><br><br>
+    <label>Email :</label>
+    <input type="text"><br><br>
+    <label for="courses">Courses :</label>
+    <select name="Course" id="course">
+      <option value="ROBOTICS Engineering">Robatics Engineering</option>
+      <option value="Network Engineering">NE</option>
+      <option value="Petroleam  Engineering">PE</option>
+      <option value="MECHANICAL">ME</option>
+    </select><br><br>
+    <label for ="Address">Address :</label>
+    <textarea id="Address" name="Address" row="8" cols="72"></textarea><BR><br>
+    <label  for id="Country">Country :</label>
+    <input list="Countries" name="Countries" id="Country">
+    <datalist id="Countries">
+      <option value="INDIA"></option>
+        <option value="SOUTH KOREA"></option>
+        <option value="JAPAN"></option>
+        <option value="AUSTRALIA"></option>
+        <option value="EUROPE"></option>
+      
+    </datalist><br><br>
+
+    <button id="submit_btn" type="SUBMIT" form="login-form" value="Submit">SUBMIT</button>
+
+  </form>
+
+</div>
+<div style ="background-color:#85f7ed">
+<h1  id="imageHeading">IMAGE MAP</h1>
+<img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c3R1ZHlpbmd8ZW58MHx8MHx8&w=1000&q=80"alt="Studyplace" 
+usemap="#Studymap" width="500" >
+</div>
+</body>
+
+
+</html>

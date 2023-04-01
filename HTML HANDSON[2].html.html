@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography images</title>
+
+</head>
+<body>
+    <div>
+
+    <div class="container">
+        <h1 id="titleName"></h1><i>NEO PHOTOGRAPHY</i> </h1>
+        <h2 id="titleDescription"><i>Beautiful Commercial Photography</i></h2>
+        <a onclick="myFunction()" id="viewWork"><i>View my  Work</i></a>
+    </div>
+    <div id="images">
+    <div class="image">
+        <img src="https://ipt.imgix.net/204781/x/0/ultimate-guide-to-sunset-photography-6.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-3.3.0&w=883"width="500" alt="pic1" id="backGroundImage" >
+    </div>
+    <div class="image">
+        <h3 id="ourWork"> <i>Our Work</i></h3>
+        <img src="https://i.pinimg.com/736x/38/f5/9a/38f59a52b9c5b28ed522e35e47038e2c.jpg"width="500" alt="pic2" id="firstImage" >
+    </div>
+    <div class="image">
+        <img src="https://i.pinimg.com/736x/da/da/80/dada80294f649b6bc48079836e032440.jpg"width="500"height="500" alt="pic3" id="secondImage"><p id="firstImageName"><i> Food Photography</i> </p>
+        
+    </div>
+    <div class="image">
+        <img src="https://bush.tamu.edu/wp-content/uploads/2020/07/FrenchInstitute-FrontPage.jpg"width="500" alt="pic4" id="thirdImage">
+        <p id="secondImageName"><i>Aerial Photography</i></p>
+    </div>
+    <div class="image">
+        <img src="https://www.shutterstock.com/image-photo/abstract-macro-photo-dandelion-flower-260nw-1984290977.jpg" alt="pic5" id="fourthImage">
+        <p id="thirdImageName"><i>Abstract Photography</i></p>
+    </div>
+</div>
+</div>
+
+</body>
+<script>
+    function myFunction(){
+        var x = document.getElementById("images");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
+</html>
